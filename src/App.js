@@ -2,11 +2,12 @@ import './App.css';
 import Row from "./Row/Row";
 import {requests} from "./requests";
 import Banner from "./Banner/Banner";
+import NavBar from "./NavBar/NavBar";
 
-function App() {
+const App = () => {
     return (
         <div className="App">
-
+            <NavBar/>
             <Banner/>
             <Row title='Netflix Originals' fetchUrl={requests.fetchNetflixOriginals} isLargeRow/>
             <Row title='Trending Now' fetchUrl={requests.fetchTrending}/>
