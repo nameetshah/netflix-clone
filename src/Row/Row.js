@@ -3,7 +3,7 @@ import axios from "axios";
 import './Row.css'
 import {IMAGE_BASE_URL} from "../requests";
 import YouTube from "react-youtube";
-import movieTrailer from 'movie-trailer';
+// import movieTrailer from 'movie-trailer';
 
 
 const Row = ({title, fetchUrl, isLargeRow}) => {

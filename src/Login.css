@@ -1,0 +1,86 @@
+.backgroundCss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 320px;
+    padding: 20px;
+    color: white;
+    /*margin: 145px auto 0;*/
+    /*background: black;*/
+    /*opacity: 0.6;*/
+    border-radius: 5px;
+}
+
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/*.textbox {*/
+/*    width: 100%;*/
+/*    height: 30px;*/
+/*    border: 1px solid black;*/
+/*    border-radius: 10px;*/
+/*    margin: 10px 0;*/
+/*    padding: 10px;*/
+/*}*/
+
+/*.backgroundImg {*/
+/*    height: 713px;*/
+/*    width: 100%;*/
+/*    filter: brightness(50%);*/
+/*}*/
+
+.wholePage {
+    background-image: url("IN-en-20220117-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+
+    min-height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    /*display: flex;*/
+    position: absolute;
+    right: 0;
+    max-width: 300px;
+    padding: 16px;
+    background-color: black;
+    /*filter: brightness(50%);*/
+    opacity: 0.9;
+    margin: 40% 40% 20px 20px;
+}
+
+/*.backgroundImg {*/
+/*    filter: brightness(50%);*/
+/*}*/
+
+.btn {
+    background-color: red;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.navbar_logo {
+    width: 120px;
+    padding-left: 15px;
+    object-fit: contain;
+    margin-top: 15px;
+}

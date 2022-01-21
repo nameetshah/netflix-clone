@@ -1,14 +1,13 @@
 import axios from "axios";
 import {
-    SESSION_ID_URL,
-    LOGIN_URL,
-    REQUEST_TOKEN_URL,
-    POPULAR_BASE_URL,
     SEARCH_BASE_URL,
+    POPULAR_BASE_URL,
+    API_URL,
     API_KEY,
-    API_URL
-} from "./requests";
-
+    REQUEST_TOKEN_URL,
+    LOGIN_URL,
+    SESSION_ID_URL
+} from './requests';
 
 const defaultConfig = {
     method: 'POST',
@@ -17,8 +16,9 @@ const defaultConfig = {
     }
 };
 
+
 const data = axios.create({
-    // baseURL: 'https://api.themoviedb.org/3/',
+    baseURL: 'https://api.themoviedb.org/3/',
 
     fetchMovies: async (searchTerm, page) => {
         const endpoint = searchTerm
